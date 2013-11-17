@@ -7,4 +7,4 @@ Linear Algebra for CS
 
 [Python Basics](http://nbviewer.ipython.org/url/raw.github.com/empet/LinAlgCS/master/Python.ipynb)
 
-[Numpy](http://nbviewer.ipython.org/url/raw.github.com/empet/LinAlgCS/master/Numpy.ipynb)
+[NumPy](http://nbviewer.ipython.org/url/raw.github.com/empet/LinAlgCS/master/NumPy.ipynb)
