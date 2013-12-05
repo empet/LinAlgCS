@@ -12,3 +12,5 @@ Linear Algebra for CS
 [Matplotlib](http://nbviewer.ipython.org/url/raw.github.com/empet/LinAlgCS/master/Matplotlib.ipynb)
 
 [Least Square Solution](http://nbviewer.ipython.org/url/raw.github.com/empet/LinAlgCS/master/LeastSqSol.ipynb)
+
+[Networks](http://nbviewer.ipython.org/url/raw.github.com/empet/LinAlgCS/master/Networks.ipynb)
