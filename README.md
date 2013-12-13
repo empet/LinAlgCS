@@ -14,3 +14,6 @@ Linear Algebra for CS
 [Least Square Solution](http://nbviewer.ipython.org/url/raw.github.com/empet/LinAlgCS/master/LeastSqSol.ipynb)
 
 [Networks](http://nbviewer.ipython.org/url/raw.github.com/empet/LinAlgCS/master/Networks.ipynb)
+
+[SVD Decomposition. Image Compression](http://nbviewer.ipython.org/url/raw.github.com/empet/LinAlgCS/master/SVD_Decomposition.ipynb)
+
