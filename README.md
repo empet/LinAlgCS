@@ -17,3 +17,5 @@ Linear Algebra for CS
 
 [SVD Decomposition. Image Compression](http://nbviewer.ipython.org/url/raw.github.com/empet/LinAlgCS/master/SVD_Decomposition.ipynb)
 
+[Planar Curves](http://nbviewer.ipython.org/url/raw.github.com/empet/LinAlgCS/master/Curves.ipynb)
+
