@@ -1,47 +1,102 @@
+<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900,100italic,300italic,400italic,500italic,700italic,800italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Philosopher:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
 <style>
-    @font-face {
-        font-family: "Computer Modern";
-        src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
-    }
-    div.cell{
-        width:800px;
-        margin-left:16% !important;
+
+@font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+}
+
+
+ div.cell{
+        width:900px;
+        margin-left:13% !important;
         margin-right:auto;
     }
-    h1 {
-        font-family: Helvetica, serif;
-    }
-    h4{
-        margin-top:12px;
-        margin-bottom: 3px;
-       }
-    div.text_cell_render{
-        font-family: Computer Modern, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-        line-height: 145%;
-        font-size: 130%;
-        width:800px;
-        margin-left:auto;
-        margin-right:auto;
-    }
-    .CodeMirror{
-            font-family: "Source Code Pro", source-code-pro,Consolas, monospace;
-    }
-    .prompt{
+
+#notebook li { /* More space between bullet points */
+margin-top:0.8em;
+}
+
+div.text_cell_render{
+    font-family: 'Arvo' sans-serif; /* 'Arvo' sans-serif; 'Alegreya Sans' sans-serif; */
+    line-height: 145%; /*130%;*/
+    font-size: 130%; /* 130%;  pt alegreya era  era OK 145, 115*/  
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+/* Formatting for header cells */
+.text_cell_render h1 {
+    font-family: 'Philosopher', sans-serif; /*Philosopher was started in 2008  It can be used in logos, headlines, and for text.*/
+    font-weight: 400;
+    font-size: 40pt;
+    line-height: 100%;
+    color: rgb(8, 66, 133); /*rgb(12,85,97);*/
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+    display: block;
+}	
+.text_cell_render h2 {
+    font-family: 'Philosopher', serif;
+    font-weight: 700;
+    font-size: 24pt;
+    line-height: 100%;
+    color: rgb(8, 66, 133); 
+  /*rgb(171,165,131);*/
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+    display: block;
+}	
+
+.text_cell_render h3 {
+    font-family: 'Philosopher', serif;
+    margin-top:12px;
+    margin-bottom: 3px;
+    font-style: italic;
+    color: rgb(8, 66, 133); /* rgb(95,92,72);*/
+}
+
+.text_cell_render h4 {
+    font-family: 'Philosopher', serif;
+}
+
+.text_cell_render h5 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16pt;
+    color: grey;
+    font-style: italic;
+    margin-bottom: .1em;
+    margin-top: 0.1em;
+    display: block;
+}
+
+.text_cell_render h6 {
+    font-family: 'PT Mono', sans-serif;
+    font-weight: 300;
+    font-size: 10pt;
+    color: grey;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.CodeMirror{
+        font-family: "PT Mono";
+        font-size: 100%;
+}
+.prompt{
         display: None;
     }
-    .text_cell_render h5 {
-        font-weight: 300;
-        font-size: 22pt;
-        color: #4057A1;
-        font-style: italic;
-        margin-bottom: .5em;
-        margin-top: 0.5em;
-        display: block;
-    }
-    
-    .warning{
-        color: rgb( 240, 20, 20 )
-        }  
+.warning{
+        color: rgb(240, 20, 20)
+        }      
 </style>
 <script>
     MathJax.Hub.Config({
@@ -58,3 +113,4 @@
                 }
         });
 </script>
+
