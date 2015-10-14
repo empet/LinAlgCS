@@ -3,6 +3,8 @@ LinAlgCS
 
 Linear Algebra for CS
 
+[Jupyter Notebook and Python](http://nbviewer.ipython.org/github/empet/LinAlgCS/blob/master/Jupyter-Notebook-Python.ipynb)
+
 [IPython Notebook](http://nbviewer.ipython.org/url/raw.github.com/empet/LinAlgCS/master/PythonIPythonN.ipynb)
 
 [Python Basics](http://nbviewer.ipython.org/url/raw.github.com/empet/LinAlgCS/master/Python.ipynb)
