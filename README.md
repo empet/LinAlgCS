@@ -3,6 +3,8 @@ LinAlgCS
 
 Linear Algebra for CS
 
+All notebooks in this repo were created in december 2013 and january 2014, with minor updates later. 
+
 [Jupyter Notebook and Python](http://nbviewer.ipython.org/github/empet/LinAlgCS/blob/master/Jupyter-Notebook-Python.ipynb)
 
 [IPython Notebook](http://nbviewer.ipython.org/url/raw.github.com/empet/LinAlgCS/master/PythonIPythonN.ipynb)
